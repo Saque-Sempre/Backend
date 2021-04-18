@@ -1,0 +1,122 @@
+info -  - Tue Mar 30 2021 09:15:26 GMT-0300 (Brasilia Standard Time) -  - Invocando novaInterfaceBD()
+
+info -  - Tue Mar 30 2021 09:15:27 GMT-0300 (Brasilia Standard Time) -  - Servidor escutando na porta 8080!
+
+info -  - Tue Mar 30 2021 09:15:27 GMT-0300 (Brasilia Standard Time) -  - Tue Mar 30 2021 09:15:27 GMT-0300 (Brasilia Standard Time)
+
+warn -  - Tue Mar 30 2021 09:15:27 GMT-0300 (Brasilia Standard Time) -  - Usa SSL: NÃO
+
+verbose -  - Tue Mar 30 2021 09:15:27 GMT-0300 (Brasilia Standard Time) -  - 
+
+
+info -  - Tue Mar 30 2021 09:15:38 GMT-0300 (Brasilia Standard Time) -  - GET "/": 200
+
+info -  - Wed Mar 31 2021 11:03:16 GMT-0300 (Brasilia Standard Time) -  - Invocando novaInterfaceBD()
+
+info -  - Wed Mar 31 2021 11:03:16 GMT-0300 (Brasilia Standard Time) -  - Servidor escutando na porta 8080!
+
+info -  - Wed Mar 31 2021 11:03:16 GMT-0300 (Brasilia Standard Time) -  - O servidor usa SSL!
+
+
+info -  - Wed Mar 31 2021 11:05:12 GMT-0300 (Brasilia Standard Time) -  - Invocando novaInterfaceBD()
+
+info -  - Wed Mar 31 2021 11:05:12 GMT-0300 (Brasilia Standard Time) -  - Servidor escutando na porta 8080!
+
+info -  - Wed Mar 31 2021 11:05:12 GMT-0300 (Brasilia Standard Time) -  - Wed Mar 31 2021 11:05:12 GMT-0300 (Brasilia Standard Time)
+
+verbose -  - Wed Mar 31 2021 11:05:12 GMT-0300 (Brasilia Standard Time) -  - 
+
+
+warn -  - Wed Mar 31 2021 11:05:12 GMT-0300 (Brasilia Standard Time) -  - Usa SSL: NÃO
+
+info -  - Wed Mar 31 2021 11:05:32 GMT-0300 (Brasilia Standard Time) -  - POST "/"
+
+info -  - Wed Mar 31 2021 11:05:32 GMT-0300 (Brasilia Standard Time) -  - Invocando abrirSessao(cadastro, bancodecontato4@gmail.com, 09a471019701503a4998fb4ee5b54eff5cbe7a08)
+
+info -  - Wed Mar 31 2021 11:05:32 GMT-0300 (Brasilia Standard Time) -  -   > Executando SQL (executarSQL): SELECT nomeusuario,senha,carteira FROM cadastro.rede WHERE nomeusuario='bancodecontato4@gmail.com' A - nomeBD: cadastro ...
+
+info -  - Wed Mar 31 2021 11:05:34 GMT-0300 (Brasilia Standard Time) -  -   > Executando SQL (executarSQL): SELECT nomeusuario,senha,carteira FROM cadastro.cliente WHERE nomeusuario='bancodecontato4@gmail.com - nomeBD: cadastro ...
+
+info -  - Wed Mar 31 2021 11:05:35 GMT-0300 (Brasilia Standard Time) -  -   > Executando SQL (executarSQL): SELECT nomeusuario,senha,carteira FROM cadastro.parceiro WHERE nomeusuario='bancodecontato4@gmail.co - nomeBD: cadastro ...
+
+info -  - Wed Mar 31 2021 11:05:36 GMT-0300 (Brasilia Standard Time) -  - Invocando novaInterfaceBD()
+
+info -  - Wed Mar 31 2021 11:05:36 GMT-0300 (Brasilia Standard Time) -  - Invocando obterTodasAsTransacoesBanco(acc1TH5VCQT02FG, rede)
+
+info -  - Wed Mar 31 2021 11:05:36 GMT-0300 (Brasilia Standard Time) -  -   > Executando SQL (executarSQLPromise): SELECT saque_id,saque_comercio,saque_datahora,saque_bandeira,saque_cartao,saque_valor,saque_taxa,saq - nomeBD: transacoessaquesempre ...
+
+info -  - Wed Mar 31 2021 11:05:38 GMT-0300 (Brasilia Standard Time) -  -   > Executando SQL (executarSQLPromise): SELECT saque_id,saque_comercio,saque_datahora,saque_bandeira,saque_cartao,saque_valor,saque_taxa,saq - nomeBD: transacoessaquesempre ...
+
+info -  - Wed Mar 31 2021 11:05:38 GMT-0300 (Brasilia Standard Time) -  - POST "/" {"usuario":"bancodecontato4@gmail.com","token":"09a471019701503a4998fb4ee5b54eff5cbe7a08","acao":"login"} : OK
+
+info -  - Wed Mar 31 2021 11:33:34 GMT-0300 (Brasilia Standard Time) -  - Invocando novaInterfaceBD()
+
+info -  - Wed Mar 31 2021 11:33:34 GMT-0300 (Brasilia Standard Time) -  - Servidor escutando na porta 8080!
+
+info -  - Wed Mar 31 2021 11:33:34 GMT-0300 (Brasilia Standard Time) -  - Wed Mar 31 2021 11:33:34 GMT-0300 (Brasilia Standard Time)
+
+warn -  - Wed Mar 31 2021 11:33:34 GMT-0300 (Brasilia Standard Time) -  - Usa SSL: NÃO
+
+verbose -  - Wed Mar 31 2021 11:33:34 GMT-0300 (Brasilia Standard Time) -  - 
+
+
+info -  - Wed Mar 31 2021 11:33:38 GMT-0300 (Brasilia Standard Time) -  - POST "/"
+
+info -  - Wed Mar 31 2021 11:33:38 GMT-0300 (Brasilia Standard Time) -  - Invocando abrirSessao(cadastro, bancodecontato4@gmail.com, 09a471019701503a4998fb4ee5b54eff5cbe7a08)
+
+info -  - Wed Mar 31 2021 11:33:38 GMT-0300 (Brasilia Standard Time) -  -   > Executando SQL (executarSQL): SELECT nomeusuario,senha,carteira FROM cadastro.rede WHERE nomeusuario='bancodecontato4@gmail.com' AND senha='09a471019701503a4998fb4ee5b54eff5cbe7a08'  LIMIT 1; - nomeBD: cadastro ...
+
+info -  - Wed Mar 31 2021 11:33:39 GMT-0300 (Brasilia Standard Time) -  -   > Executando SQL (executarSQL): SELECT nomeusuario,senha,carteira FROM cadastro.cliente WHERE nomeusuario='bancodecontato4@gmail.com' AND senha='09a471019701503a4998fb4ee5b54eff5cbe7a08'  LIMIT 1; - nomeBD: cadastro ...
+
+info -  - Wed Mar 31 2021 11:33:40 GMT-0300 (Brasilia Standard Time) -  -   > Executando SQL (executarSQL): SELECT nomeusuario,senha,carteira FROM cadastro.parceiro WHERE nomeusuario='bancodecontato4@gmail.com' AND senha='09a471019701503a4998fb4ee5b54eff5cbe7a08'  LIMIT 1; - nomeBD: cadastro ...
+
+info -  - Wed Mar 31 2021 11:33:41 GMT-0300 (Brasilia Standard Time) -  - Invocando novaInterfaceBD()
+
+info -  - Wed Mar 31 2021 11:33:41 GMT-0300 (Brasilia Standard Time) -  - Invocando obterTodasAsTransacoesBanco(acc1TH5VCQT02FG, rede)
+
+info -  - Wed Mar 31 2021 11:33:42 GMT-0300 (Brasilia Standard Time) -  -   > Executando SQL (executarSQLPromise): SELECT saque_id,saque_comercio,saque_datahora,saque_bandeira,saque_cartao,saque_valor,saque_taxa,saque_comissao,saque_tipo,saque_eclivredescontos,parceiro_carteira,parceiro_comissao FROM transacoessaquesempre.saque WHERE saque_carteira='acc1TH5VCQT02FG' ; - nomeBD: transacoessaquesempre ...
+
+info -  - Wed Mar 31 2021 11:33:43 GMT-0300 (Brasilia Standard Time) -  -   > Executando SQL (executarSQLPromise): SELECT saque_id,saque_comercio,saque_datahora,saque_bandeira,saque_cartao,saque_valor,saque_taxa,saque_comissao,saque_tipo,saque_eclivredescontos,parceiro_carteira,parceiro_comissao FROM transacoessaquesempre.pagamento WHERE saque_carteira='acc1TH5VCQT02FG' ; - nomeBD: transacoessaquesempre ...
+
+info -  - Wed Mar 31 2021 11:33:43 GMT-0300 (Brasilia Standard Time) -  - POST "/" {"usuario":"bancodecontato4@gmail.com","token":"09a471019701503a4998fb4ee5b54eff5cbe7a08","acao":"login"} : OK
+
+info -  - Wed Mar 31 2021 11:34:13 GMT-0300 (Brasilia Standard Time) -  - POST "/"
+
+info -  - Wed Mar 31 2021 11:34:13 GMT-0300 (Brasilia Standard Time) -  - Invocando abrirSessao(cadastro, bancodecontato4@gmail.com, 09a471019701503a4998fb4ee5b54eff5cbe7a08)
+
+info -  - Wed Mar 31 2021 11:34:13 GMT-0300 (Brasilia Standard Time) -  -   > Executando SQL (executarSQL): SELECT nomeusuario,senha,carteira FROM cadastro.rede WHERE nomeusuario='bancodecontato4@gmail.com' AND senha='09a471019701503a4998fb4ee5b54eff5cbe7a08'  LIMIT 1; - nomeBD: cadastro ...
+
+info -  - Wed Mar 31 2021 11:34:14 GMT-0300 (Brasilia Standard Time) -  -   > Executando SQL (executarSQL): SELECT nomeusuario,senha,carteira FROM cadastro.cliente WHERE nomeusuario='bancodecontato4@gmail.com' AND senha='09a471019701503a4998fb4ee5b54eff5cbe7a08'  LIMIT 1; - nomeBD: cadastro ...
+
+info -  - Wed Mar 31 2021 11:34:15 GMT-0300 (Brasilia Standard Time) -  -   > Executando SQL (executarSQL): SELECT nomeusuario,senha,carteira FROM cadastro.parceiro WHERE nomeusuario='bancodecontato4@gmail.com' AND senha='09a471019701503a4998fb4ee5b54eff5cbe7a08'  LIMIT 1; - nomeBD: cadastro ...
+
+info -  - Wed Mar 31 2021 11:34:16 GMT-0300 (Brasilia Standard Time) -  - Invocando novaInterfaceBD()
+
+info -  - Wed Mar 31 2021 11:34:16 GMT-0300 (Brasilia Standard Time) -  - Invocando obterTodasAsTransacoesBanco(acc1TH5VCQT02FG, rede)
+
+info -  - Wed Mar 31 2021 11:34:16 GMT-0300 (Brasilia Standard Time) -  -   > Executando SQL (executarSQLPromise): SELECT saque_id,saque_comercio,saque_datahora,saque_bandeira,saque_cartao,saque_valor,saque_taxa,saque_comissao,saque_tipo,saque_eclivredescontos,parceiro_carteira,parceiro_comissao FROM transacoessaquesempre.saque WHERE saque_carteira='acc1TH5VCQT02FG' ; - nomeBD: transacoessaquesempre ...
+
+info -  - Wed Mar 31 2021 11:34:17 GMT-0300 (Brasilia Standard Time) -  -   > Executando SQL (executarSQLPromise): SELECT saque_id,saque_comercio,saque_datahora,saque_bandeira,saque_cartao,saque_valor,saque_taxa,saque_comissao,saque_tipo,saque_eclivredescontos,parceiro_carteira,parceiro_comissao FROM transacoessaquesempre.pagamento WHERE saque_carteira='acc1TH5VCQT02FG' ; - nomeBD: transacoessaquesempre ...
+
+info -  - Wed Mar 31 2021 11:34:17 GMT-0300 (Brasilia Standard Time) -  - POST "/" {"usuario":"bancodecontato4@gmail.com","token":"09a471019701503a4998fb4ee5b54eff5cbe7a08","acao":"login"} : OK
+
+info -  - Wed Mar 31 2021 12:04:48 GMT-0300 (Brasilia Standard Time) -  - POST "/"
+
+info -  - Wed Mar 31 2021 12:04:48 GMT-0300 (Brasilia Standard Time) -  - Invocando abrirSessao(cadastro, bancodecontato4@gmail.com, 09a471019701503a4998fb4ee5b54eff5cbe7a08)
+
+info -  - Wed Mar 31 2021 12:04:48 GMT-0300 (Brasilia Standard Time) -  -   > Executando SQL (executarSQL): SELECT nomeusuario,senha,carteira FROM cadastro.rede WHERE nomeusuario='bancodecontato4@gmail.com' AND senha='09a471019701503a4998fb4ee5b54eff5cbe7a08'  LIMIT 1; - nomeBD: cadastro ...
+
+info -  - Wed Mar 31 2021 12:04:49 GMT-0300 (Brasilia Standard Time) -  -   > Executando SQL (executarSQL): SELECT nomeusuario,senha,carteira FROM cadastro.cliente WHERE nomeusuario='bancodecontato4@gmail.com' AND senha='09a471019701503a4998fb4ee5b54eff5cbe7a08'  LIMIT 1; - nomeBD: cadastro ...
+
+info -  - Wed Mar 31 2021 12:04:50 GMT-0300 (Brasilia Standard Time) -  -   > Executando SQL (executarSQL): SELECT nomeusuario,senha,carteira FROM cadastro.parceiro WHERE nomeusuario='bancodecontato4@gmail.com' AND senha='09a471019701503a4998fb4ee5b54eff5cbe7a08'  LIMIT 1; - nomeBD: cadastro ...
+
+info -  - Wed Mar 31 2021 12:04:52 GMT-0300 (Brasilia Standard Time) -  - Invocando novaInterfaceBD()
+
+info -  - Wed Mar 31 2021 12:04:52 GMT-0300 (Brasilia Standard Time) -  - Invocando obterTodasAsTransacoesBanco(accL6SA481Y5CE0L, rede)
+
+info -  - Wed Mar 31 2021 12:04:52 GMT-0300 (Brasilia Standard Time) -  -   > Executando SQL (executarSQLPromise): SELECT saque_id,saque_comercio,saque_datahora,saque_bandeira,saque_cartao,saque_valor,saque_taxa,saque_comissao,saque_tipo,saque_eclivredescontos,parceiro_carteira,parceiro_comissao FROM transacoessaquesempre.saque WHERE saque_carteira='accL6SA481Y5CE0L' ; - nomeBD: transacoessaquesempre ...
+
+info -  - Wed Mar 31 2021 12:04:53 GMT-0300 (Brasilia Standard Time) -  -   > Executando SQL (executarSQLPromise): SELECT saque_id,saque_comercio,saque_datahora,saque_bandeira,saque_cartao,saque_valor,saque_taxa,saque_comissao,saque_tipo,saque_eclivredescontos,parceiro_carteira,parceiro_comissao FROM transacoessaquesempre.pagamento WHERE saque_carteira='accL6SA481Y5CE0L' ; - nomeBD: transacoessaquesempre ...
+
+info -  - Wed Mar 31 2021 12:04:53 GMT-0300 (Brasilia Standard Time) -  - POST "/" {"usuario":"bancodecontato4@gmail.com","token":"09a471019701503a4998fb4ee5b54eff5cbe7a08","acao":"login"} : OK
+

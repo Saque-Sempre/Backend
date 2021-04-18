@@ -1,0 +1,66 @@
+info -  -  - Invocando novaInterfaceBD()
+
+info -  -  - Servidor escutando na porta 8080!
+
+info -  -  - Sun Mar 28 2021 12:18:23 GMT-0300 (Brasilia Standard Time)
+
+warn -  -  - Não se usa SSL!
+
+verbose -  -  - 
+
+
+info -  -  - Invocando novaInterfaceBD()
+
+info -  -  - Sun Mar 28 2021 12:19:00 GMT-0300 (Brasilia Standard Time)
+
+info -  -  - Servidor escutando na porta 8080!
+
+warn -  -  - Usa SSL: NÃO
+
+verbose -  -  - 
+
+
+info -  -  - POST "/"
+
+info -  -  - Invocando abrirSessao(cadastro, bancodecontato4@gmail.com, 09a471019701503a4998fb4ee5b54eff5cbe7a08)
+
+info -  -  -   > Executando SQL (executarSQL): SELECT nomeusuario,senha,carteira FROM cadastro.rede WHERE nomeusuario='bancodecontato4@gmail.com' A - nomeBD: cadastro
+
+info -  -  -   > Executando SQL (executarSQL): SELECT nomeusuario,senha,carteira FROM cadastro.cliente WHERE nomeusuario='bancodecontato4@gmail.com - nomeBD: cadastro
+
+info -  -  -   > Executando SQL (executarSQL): SELECT nomeusuario,senha,carteira FROM cadastro.parceiro WHERE nomeusuario='bancodecontato4@gmail.co - nomeBD: cadastro
+
+info -  -  - Invocando novaInterfaceBD()
+
+info -  -  - Invocando obterTodasAsTransacoesBanco(CARTEIRA-FALSA, rede)
+
+info -  -  -   > Executando SQL (executarSQLPromise): SELECT saque_id,saque_comercio,saque_datahora,saque_bandeira,saque_cartao,saque_valor,saque_taxa,saq - nomeBD: transacoessaquesempre
+
+info -  -  -   > Executando SQL (executarSQLPromise): SELECT saque_id,saque_comercio,saque_datahora,saque_bandeira,saque_cartao,saque_valor,saque_taxa,saq - nomeBD: transacoessaquesempre
+
+info -  -  - POST "/" {"usuario":"bancodecontato4@gmail.com","token":"09a471019701503a4998fb4ee5b54eff5cbe7a08","acao":"login"}
+
+info -  -  - Invocando novaInterfaceBD()
+
+info -  -  - Servidor escutando na porta 8080!
+
+info -  -  - Sun Mar 28 2021 12:20:33 GMT-0300 (Brasilia Standard Time)
+
+warn -  -  - Usa SSL: NÃO
+
+verbose -  -  - 
+
+
+info -  -  - Invocando novaInterfaceBD()
+
+info -  -  - Servidor escutando na porta 8080!
+
+info -  -  - Sun Mar 28 2021 12:20:57 GMT-0300 (Brasilia Standard Time)
+
+warn -  -  - Usa SSL: NÃO
+
+verbose -  -  - 
+
+
+info -  -  - GET "/": 200
+

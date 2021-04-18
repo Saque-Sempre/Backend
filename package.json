@@ -1,0 +1,36 @@
+{
+  "name": "backendsaquesemprenode",
+  "version": "1.0.0",
+  "description": "Backend da plataforma SaqueSempre para consulta de transações e outras atividades",
+  "main": "index.js",
+  "scripts": {
+    "test": "nodejs index.js"
+  },
+  "keywords": [
+    "Saque",
+    "Pagamento",
+    "Débito",
+    "Crédito"
+  ],
+  "author": "isaiasfrederick@gmail.com (Isaias Frederick)",
+  "license": "ISC",
+  "dependencies": {
+    "@google-cloud/functions-framework": "^1.7.1",
+    "await-to-js": "^2.1.1",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "express": "^4.17.1",
+    "forever-monitor": "^3.0.3",
+    "fs": "0.0.1-security",
+    "loglevel": "^1.7.1",
+    "moment": "^2.29.1",
+    "mysql": "^2.18.1",
+    "mysql2": "^2.2.5",
+    "npmlog": "^4.1.2",
+    "sync-mysql": "^3.0.1",
+    "sync-sql": "^1.0.2",
+    "util": "^0.12.3",
+    "xmlhttprequest": "^1.8.0"
+  }
+}

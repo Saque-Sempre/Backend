@@ -1,0 +1,17 @@
+{
+	"usuario":"cliente@cliente.com",
+	"acao": "gerarSenha"
+}
+
+{
+	"usuario":"cliente@cliente.com",
+	"acao": "redefinirSenha",
+	"tokenTemporario": "e103315c1e4de94ca14adc36732c28",
+	"token": "1ca7ac99f93195a24af8196225cb9004d3c43f2c"
+}
+
+https://manage.accuwebhosting.com/clientarea.php?action=productdetails&id=63018
+isa1as-46
+
+ssh -p 22 root@68.71.132.197 
+gre46fg33!@gr
